@@ -43,7 +43,7 @@ Next just run a quick query to confirm.
 接下来只需运行快速查询即可确认。
 
 ```SQL
-1	select table_schema, table_name from information_schema.tables order by table_schema asc
+select table_schema, table_name from information_schema.tables order by table_schema asc
 ```
 
 If you’re looking to see whats statements are being run first; just run the following:
